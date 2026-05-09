@@ -76,7 +76,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: 'LP007',
+   /* id: 'LP007',
     name: 'Churma Laddoo',
     description: 'Rajasthani specialty made with wheat flour and desi ghee',
     price: 480,
@@ -91,7 +91,7 @@ export const products: Product[] = [
       fiber: '2g',
       ingredients: ['Wheat Flour', 'Desi Ghee', 'Jaggery', 'Dry Fruits', 'Cardamom'],
     },
-  },
+  },*/
   {
     id: 'LP009',
     name: 'Aata Laddoo',
