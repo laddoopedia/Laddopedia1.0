@@ -250,7 +250,7 @@ export const products: Product[] = [
       carbs: '29g',
       fat: '11g',
       fiber: '1g',
-      ingredients: ['Flour', 'Dry Fruits', 'Eggs', 'Milk', 'Butter', 'Sugar'],
+      ingredients: ['Flour', 'Dry Fruits', 'Milk', 'Butter', 'Sugar'],
     },
   }
   {
@@ -266,7 +266,7 @@ export const products: Product[] = [
       carbs: '31g',
       fat: '13g',
       fiber: '1g',
-      ingredients: ['Flour', 'Chocolate Chips', 'Eggs', 'Milk', 'Butter', 'Sugar'],
+      ingredients: ['Flour', 'Chocolate Chips', 'Milk', 'Butter', 'Sugar'],
     },
   }
   {
@@ -283,7 +283,7 @@ export const products: Product[] = [
       carbs: '26g',
       fat: '9g',
       fiber: '4g',
-      ingredients: ['Ragi Flour', 'Eggs', 'Milk', 'Honey', 'Butter'],
+      ingredients: ['Ragi Flour', 'Milk', 'Honey', 'Ghee'],
     },
   }
   {
@@ -299,7 +299,7 @@ export const products: Product[] = [
       carbs: '168g',
       fat: '60g',
       fiber: '6g',
-      ingredients: ['Flour', 'Eggs', 'Milk', 'Vanilla Extract', 'Butter', 'Sugar'],
+      ingredients: ['Flour', 'Milk', 'Vanilla Extract', 'Butter', 'Sugar'],
     },
   }
   {
@@ -315,7 +315,7 @@ export const products: Product[] = [
       carbs: '180g',
       fat: '72g',
       fiber: '6g',
-      ingredients: ['Flour', 'Cocoa Powder', 'Eggs', 'Milk', 'Butter', 'Sugar'],
+      ingredients: ['Flour', 'Cocoa Powder', 'Milk', 'Butter', 'Sugar'],
     },
   }
   {
@@ -331,7 +331,7 @@ export const products: Product[] = [
       carbs: '185g',
       fat: '75g',
       fiber: '6g',
-      ingredients: ['Flour', 'Chocolate Chips', 'Eggs', 'Milk', 'Butter', 'Sugar'],
+      ingredients: ['Flour', 'Chocolate Chips', 'Eggs', 'Butter', 'Sugar'],
     },
   }
   // New Specialty Laddoos
@@ -461,5 +461,5 @@ export const products: Product[] = [
   },
 ]
 
-export const categories = ['All', 'Classic', 'Sugar-Free', 'Health Drinks', 'Muffins'] as const
+export const categories = ['All', 'Sugar-Free', 'Health Drinks', 'Muffins'] as const
 export type Category = (typeof categories)[number]
