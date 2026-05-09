@@ -25,7 +25,7 @@ export type Product = {
 }
 
 export const products: Product[] = [
-  // Classic Laddoos
+   Classic Laddoos
   
  /*   id: 'LP001',
     name: 'Besan Laddoo',
