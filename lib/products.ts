@@ -26,7 +26,7 @@ export type Product = {
 
 export const products: Product[] = [
   // Classic Laddoos
-  {
+  
  /*   id: 'LP001',
     name: 'Besan Laddoo',
     description: 'Traditional besan laddoo made with pure desi ghee and cardamom',
@@ -41,7 +41,7 @@ export const products: Product[] = [
       fat: '9g',
       fiber: '2g',
       ingredients: ['Besan (Gram Flour)', 'Desi Ghee', 'Jaggery', 'Cardamom', 'Cashews', 'Raisins'],*/
-    },
+    
   }
  
  /*  id: 'LP003',
