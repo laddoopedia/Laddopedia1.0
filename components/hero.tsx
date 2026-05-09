@@ -5,7 +5,7 @@ import { MessageCircle, ArrowDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function Hero() {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919999999999'
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+919251197355'
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(
