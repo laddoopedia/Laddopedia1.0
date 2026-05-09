@@ -42,9 +42,9 @@ export const products: Product[] = [
       fiber: '2g',
       ingredients: ['Besan (Gram Flour)', 'Desi Ghee', 'Jaggery', 'Cardamom', 'Cashews', 'Raisins'],
     },
-  },
+  }
  
-    id: 'LP003',
+ /*  id: 'LP003',
     name: 'Boondi Laddoo',
     description: 'Classic boondi laddoo with aromatic saffron and nuts',
     price: 420,
@@ -56,7 +56,7 @@ export const products: Product[] = [
       carbs: '20g',
       fat: '8g',
       fiber: '1g',
-      ingredients: ['Gram Flour', 'Ghee', 'Jaggery', 'Saffron', 'Almonds', 'Pistachios'],
+      ingredients: ['Gram Flour', 'Ghee', 'Jaggery', 'Saffron', 'Almonds', 'Pistachios'],*/
     },
   }
   {
