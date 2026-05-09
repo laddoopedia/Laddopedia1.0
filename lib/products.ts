@@ -60,7 +60,7 @@ export const products: Product[] = [
     },
   }
   {
-   /* id: 'LP006',
+    /*id: 'LP006',
     name: 'Til Laddoo',
     description: 'Sesame seed laddoo with jaggery, perfect for winters',
     price: 350,
