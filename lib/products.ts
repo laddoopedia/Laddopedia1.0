@@ -92,7 +92,7 @@ export const products: Product[] = [
       carbs: '12g',
       fat: '11g',
       fiber: '4g',
-      ingredients: ['Whey Protein', 'Mixed Nuts', 'Seeds', 'Ghee', 'Honey'],
+      ingredients: [ 'Mixed Nuts', 'Seeds', 'Ghee', 'Honey'],
     },
   }
   {
@@ -144,7 +144,7 @@ export const products: Product[] = [
       carbs: '12g',
       fat: '2g',
       fiber: '2g',
-      ingredients: ['Whey Protein', 'Cocoa', 'Milk Powder', 'Sugar', 'Minerals'],
+      ingredients: ['Cocoa', 'Milk Powder', 'Sugar', 'Minerals'],
     },
   }
   {
@@ -160,7 +160,7 @@ export const products: Product[] = [
       carbs: '12g',
       fat: '2g',
       fiber: '2g',
-      ingredients: ['Whey Protein', 'Vanilla Extract', 'Milk Powder', 'Sugar'],
+      ingredients: ['Vanilla Extract', 'Milk Powder', 'Sugar'],
     },
   }
   {
@@ -180,7 +180,7 @@ export const products: Product[] = [
       carbs: '10g',
       fat: '3g',
       fiber: '1g',
-      ingredients: ['Whey Protein', 'Milk Solids', 'Natural Flavors', 'Vitamins', 'Minerals'],
+      ingredients: ['Milk Solids', 'Natural Flavors', 'Vitamins', 'Minerals'],
     },
   }
   {
@@ -200,7 +200,7 @@ export const products: Product[] = [
       carbs: '11g',
       fat: '3g',
       fiber: '1g',
-      ingredients: ['Whey Protein', 'Soy Protein', 'Vitamins', 'Calcium', 'Natural Flavors'],
+      ingredients: ['Soy Protein', 'Vitamins', 'Calcium', 'Natural Flavors'],
     },
   }
   // Muffins
@@ -234,7 +234,7 @@ export const products: Product[] = [
       carbs: '30g',
       fat: '12g',
       fiber: '2g',
-      ingredients: ['Flour', 'Cocoa Powder', 'Eggs', 'Milk', 'Butter', 'Sugar'],
+      ingredients: ['Flour', 'Cocoa Powder', 'Milk', 'Butter', 'Sugar'],
     },
   }
   {
@@ -331,7 +331,7 @@ export const products: Product[] = [
       carbs: '185g',
       fat: '75g',
       fiber: '6g',
-      ingredients: ['Flour', 'Chocolate Chips', 'Eggs', 'Butter', 'Sugar'],
+      ingredients: ['Flour', 'Chocolate Chips', 'Butter', 'Sugar'],
     },
   }
   // New Specialty Laddoos
