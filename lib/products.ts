@@ -43,7 +43,7 @@ export const products: Product[] = [
       ingredients: ['Besan (Gram Flour)', 'Desi Ghee', 'Jaggery', 'Cardamom', 'Cashews', 'Raisins'],
     },
   },
- {<p hidden
+ 
     id: 'LP003',
     name: 'Boondi Laddoo',
     description: 'Classic boondi laddoo with aromatic saffron and nuts',
@@ -57,7 +57,7 @@ export const products: Product[] = [
       fat: '8g',
       fiber: '1g',
       ingredients: ['Gram Flour', 'Ghee', 'Jaggery', 'Saffron', 'Almonds', 'Pistachios'],
-    },>
+    }
   },
   {
     id: 'LP006',
@@ -76,7 +76,7 @@ export const products: Product[] = [
     },
   },
   {
-   /* id: 'LP007',
+    id: 'LP007',
     name: 'Churma Laddoo',
     description: 'Rajasthani specialty made with wheat flour and desi ghee',
     price: 480,
@@ -91,7 +91,7 @@ export const products: Product[] = [
       fiber: '2g',
       ingredients: ['Wheat Flour', 'Desi Ghee', 'Jaggery', 'Dry Fruits', 'Cardamom'],
     },
-  },*/
+  }
   {
     id: 'LP009',
     name: 'Aata Laddoo',
@@ -107,7 +107,7 @@ export const products: Product[] = [
       fiber: '3g',
       ingredients: ['Whole Wheat', 'Jaggery', 'Almonds', 'Cashews', 'Ghee'],
     },
-  },
+  }
   // Dry Fruit Laddoos
   {
     id: 'LP011',
@@ -125,7 +125,7 @@ export const products: Product[] = [
       fiber: '3g',
       ingredients: ['Almonds', 'Cashews', 'Pistachios', 'Dates', 'Ghee', 'Honey'],
     },
-  },
+  }
   {
     id: 'LP012',
     name: 'Badam Laddoo',
@@ -141,7 +141,7 @@ export const products: Product[] = [
       fiber: '3g',
       ingredients: ['Almonds', 'Saffron', 'Cardamom', 'Ghee', 'Honey'],
     },
-  },
+  }
   {
     id: 'LP016',
     name: 'Mixed Nut Laddoo',
@@ -157,7 +157,7 @@ export const products: Product[] = [
       fiber: '3g',
       ingredients: ['Mixed Nuts', 'Dates', 'Honey', 'Ghee', 'Coconut'],
     },
-  },
+  }
   // Sugar-Free Options
   {
     id: 'LP017',
@@ -192,7 +192,7 @@ export const products: Product[] = [
       fiber: '4g',
       ingredients: ['Dry Fruits', 'Dates', 'Almonds', 'Ghee', 'Honey'],
     },
-  },
+  }
   {
     id: 'LP021',
     name: 'Sugar-Free Ragi Laddoo',
@@ -209,7 +209,7 @@ export const products: Product[] = [
       fiber: '4g',
       ingredients: ['Ragi (Finger Millet)', 'Almonds', 'Jaggery', 'Ghee'],
     },
-  },
+  }
   {
     id: 'LP022',
     name: 'Sugar-Free Protein Laddoo',
@@ -226,7 +226,7 @@ export const products: Product[] = [
       fiber: '4g',
       ingredients: ['Whey Protein', 'Mixed Nuts', 'Seeds', 'Ghee', 'Honey'],
     },
-  },
+  }
   {
     id: 'LP023',
     name: 'Sugar-Free Sesame Laddoo',
@@ -243,7 +243,7 @@ export const products: Product[] = [
       fiber: '4g',
       ingredients: ['Sesame Seeds', 'Jaggery', 'Ghee', 'Ginger'],
     },
-  },
+  }
   {
     id: 'LP024',
     name: 'Sugar-Free Almond Laddoo',
@@ -260,7 +260,7 @@ export const products: Product[] = [
       fiber: '4g',
       ingredients: ['Almonds', 'Dates', 'Ghee', 'Cardamom'],
     },
-  },
+  }
   // Health Drinks
   {
     id: 'LP033',
@@ -278,7 +278,7 @@ export const products: Product[] = [
       fiber: '2g',
       ingredients: ['Whey Protein', 'Cocoa', 'Milk Powder', 'Sugar', 'Minerals'],
     },
-  },
+  }
   {
     id: 'LP034',
     name: 'Vanilla Protein Drink',
@@ -294,7 +294,7 @@ export const products: Product[] = [
       fiber: '2g',
       ingredients: ['Whey Protein', 'Vanilla Extract', 'Milk Powder', 'Sugar'],
     },
-  },
+  }
   {
     id: 'LP046',
     name: 'Protein Powder for Kids',
@@ -314,7 +314,7 @@ export const products: Product[] = [
       fiber: '1g',
       ingredients: ['Whey Protein', 'Milk Solids', 'Natural Flavors', 'Vitamins', 'Minerals'],
     },
-  },
+  }
   {
     id: 'LP047',
     name: 'Protein Powder for Women',
@@ -334,7 +334,7 @@ export const products: Product[] = [
       fiber: '1g',
       ingredients: ['Whey Protein', 'Soy Protein', 'Vitamins', 'Calcium', 'Natural Flavors'],
     },
-  },
+  }
   // Muffins
   {
     id: 'LP035',
@@ -351,7 +351,7 @@ export const products: Product[] = [
       fiber: '1g',
       ingredients: ['Flour', 'Milk', 'Vanilla Extract', 'Butter', 'Sugar'],
     },
-  },
+  }
   {
     id: 'LP036',
     name: 'Chocolate Muffin',
@@ -368,7 +368,7 @@ export const products: Product[] = [
       fiber: '2g',
       ingredients: ['Flour', 'Cocoa Powder', 'Eggs', 'Milk', 'Butter', 'Sugar'],
     },
-  },
+  }
   {
     id: 'LP037',
     name: 'Tutti Frutti Muffin',
