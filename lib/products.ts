@@ -41,9 +41,10 @@ export const products: Product[] = [
       carbs: '10g',
       fat: '9g',
       fiber: '2g',
-      ingredients: ['Besan', 'Ghee', 'Stevia', 'Cardamom', 'Almonds'],
+      ingredients: ['Besan', 'Ghee', 'Stevia', 'Cardamom', 'Almonds']
     },
   }
+  
   {
     id: 'LP018',
     name: 'Sugar-Free Dry Fruit Laddoo',
