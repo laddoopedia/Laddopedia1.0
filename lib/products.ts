@@ -27,7 +27,7 @@ export type Product = {
 export const products: Product[] = [
   // Classic Laddoos
   {
-    id: 'LP001',
+ /*   id: 'LP001',
     name: 'Besan Laddoo',
     description: 'Traditional besan laddoo made with pure desi ghee and cardamom',
     price: 450,
@@ -40,7 +40,7 @@ export const products: Product[] = [
       carbs: '18g',
       fat: '9g',
       fiber: '2g',
-      ingredients: ['Besan (Gram Flour)', 'Desi Ghee', 'Jaggery', 'Cardamom', 'Cashews', 'Raisins'],
+      ingredients: ['Besan (Gram Flour)', 'Desi Ghee', 'Jaggery', 'Cardamom', 'Cashews', 'Raisins'],*/
     },
   }
  
@@ -60,7 +60,7 @@ export const products: Product[] = [
     },
   }
   {
-    id: 'LP006',
+   /* id: 'LP006',
     name: 'Til Laddoo',
     description: 'Sesame seed laddoo with jaggery, perfect for winters',
     price: 350,
@@ -72,11 +72,11 @@ export const products: Product[] = [
       carbs: '16g',
       fat: '11g',
       fiber: '3g',
-      ingredients: ['Sesame Seeds', 'Jaggery', 'Peanuts', 'Ghee', 'Ginger'],
+      ingredients: ['Sesame Seeds', 'Jaggery', 'Peanuts', 'Ghee', 'Ginger'],*/
     },
   }
   {
-    id: 'LP007',
+   /* id: 'LP007',
     name: 'Churma Laddoo',
     description: 'Rajasthani specialty made with wheat flour and desi ghee',
     price: 480,
@@ -89,11 +89,11 @@ export const products: Product[] = [
       carbs: '22g',
       fat: '9g',
       fiber: '2g',
-      ingredients: ['Wheat Flour', 'Desi Ghee', 'Jaggery', 'Dry Fruits', 'Cardamom'],
+      ingredients: ['Wheat Flour', 'Desi Ghee', 'Jaggery', 'Dry Fruits', 'Cardamom'],*/
     },
   }
   {
-    id: 'LP009',
+    /*id: 'LP009',
     name: 'Aata Laddoo',
     description: 'Whole wheat laddoo with jaggery and nuts',
     price: 390,
@@ -105,12 +105,12 @@ export const products: Product[] = [
       carbs: '19g',
       fat: '8g',
       fiber: '3g',
-      ingredients: ['Whole Wheat', 'Jaggery', 'Almonds', 'Cashews', 'Ghee'],
+      ingredients: ['Whole Wheat', 'Jaggery', 'Almonds', 'Cashews', 'Ghee'],*/
     },
   }
   // Dry Fruit Laddoos
   {
-    id: 'LP011',
+   /* id: 'LP011',
     name: 'Dry Fruit Laddoo',
     description: 'Premium mix of almonds, cashews, pistachios and dates',
     price: 650,
@@ -123,11 +123,11 @@ export const products: Product[] = [
       carbs: '15g',
       fat: '14g',
       fiber: '3g',
-      ingredients: ['Almonds', 'Cashews', 'Pistachios', 'Dates', 'Ghee', 'Honey'],
+      ingredients: ['Almonds', 'Cashews', 'Pistachios', 'Dates', 'Ghee', 'Honey'],*/
     },
   }
   {
-    id: 'LP012',
+   /* id: 'LP012',
     name: 'Badam Laddoo',
     description: 'Pure almond laddoo with saffron and cardamom',
     price: 700,
@@ -139,7 +139,7 @@ export const products: Product[] = [
       carbs: '12g',
       fat: '16g',
       fiber: '3g',
-      ingredients: ['Almonds', 'Saffron', 'Cardamom', 'Ghee', 'Honey'],
+      ingredients: ['Almonds', 'Saffron', 'Cardamom', 'Ghee', 'Honey'],*/
     },
   }
   {
@@ -156,7 +156,7 @@ export const products: Product[] = [
       fat: '13g',
       fiber: '3g',
       ingredients: ['Mixed Nuts', 'Dates', 'Honey', 'Ghee', 'Coconut'],
-    },
+   */ },
   }
   // Sugar-Free Options
   {
