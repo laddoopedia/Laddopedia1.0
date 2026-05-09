@@ -43,7 +43,7 @@ export const products: Product[] = [
       ingredients: ['Besan (Gram Flour)', 'Desi Ghee', 'Jaggery', 'Cardamom', 'Cashews', 'Raisins'],
     },
   },
-  <&lt {
+ {<p hidden
     id: 'LP003',
     name: 'Boondi Laddoo',
     description: 'Classic boondi laddoo with aromatic saffron and nuts',
@@ -57,8 +57,8 @@ export const products: Product[] = [
       fat: '8g',
       fiber: '1g',
       ingredients: ['Gram Flour', 'Ghee', 'Jaggery', 'Saffron', 'Almonds', 'Pistachios'],
-    },
-  },&gt>
+    },>
+  },
   {
     id: 'LP006',
     name: 'Til Laddoo',
