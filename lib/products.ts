@@ -57,8 +57,8 @@ export const products: Product[] = [
       fat: '8g',
       fiber: '1g',
       ingredients: ['Gram Flour', 'Ghee', 'Jaggery', 'Saffron', 'Almonds', 'Pistachios'],
-    }
-  },
+    },
+  }
   {
     id: 'LP006',
     name: 'Til Laddoo',
@@ -74,7 +74,7 @@ export const products: Product[] = [
       fiber: '3g',
       ingredients: ['Sesame Seeds', 'Jaggery', 'Peanuts', 'Ghee', 'Ginger'],
     },
-  },
+  }
   {
     id: 'LP007',
     name: 'Churma Laddoo',
@@ -175,7 +175,7 @@ export const products: Product[] = [
       fiber: '2g',
       ingredients: ['Besan', 'Ghee', 'Stevia', 'Cardamom', 'Almonds'],
     },
-  },
+  }
   {
     id: 'LP018',
     name: 'Sugar-Free Dry Fruit Laddoo',
@@ -384,7 +384,7 @@ export const products: Product[] = [
       fiber: '1g',
       ingredients: ['Flour', 'Dry Fruits', 'Eggs', 'Milk', 'Butter', 'Sugar'],
     },
-  },
+  }
   {
     id: 'LP038',
     name: 'Choco Chips Muffin',
@@ -400,7 +400,7 @@ export const products: Product[] = [
       fiber: '1g',
       ingredients: ['Flour', 'Chocolate Chips', 'Eggs', 'Milk', 'Butter', 'Sugar'],
     },
-  },
+  }
   {
     id: 'LP039',
     name: 'Ragi Muffin',
@@ -417,7 +417,7 @@ export const products: Product[] = [
       fiber: '4g',
       ingredients: ['Ragi Flour', 'Eggs', 'Milk', 'Honey', 'Butter'],
     },
-  },
+  }
   {
     id: 'LP048',
     name: 'Vanilla Muffins Pack of 6',
@@ -433,7 +433,7 @@ export const products: Product[] = [
       fiber: '6g',
       ingredients: ['Flour', 'Eggs', 'Milk', 'Vanilla Extract', 'Butter', 'Sugar'],
     },
-  },
+  }
   {
     id: 'LP049',
     name: 'Chocolate Muffins Pack of 6',
@@ -449,7 +449,7 @@ export const products: Product[] = [
       fiber: '6g',
       ingredients: ['Flour', 'Cocoa Powder', 'Eggs', 'Milk', 'Butter', 'Sugar'],
     },
-  },
+  }
   {
     id: 'LP050',
     name: 'Choco Chips Muffins Pack of 6',
@@ -465,7 +465,7 @@ export const products: Product[] = [
       fiber: '6g',
       ingredients: ['Flour', 'Chocolate Chips', 'Eggs', 'Milk', 'Butter', 'Sugar'],
     },
-  },
+  }
   // New Specialty Laddoos
   {
     id: 'LP040',
@@ -487,7 +487,7 @@ export const products: Product[] = [
       fiber: '3g',
       ingredients: ['Whole Wheat', 'Gond (Gum Arabic)', 'Jaggery', 'Ghee', 'Dry Fruits'],
     },
-  },
+  }
   {
     id: 'LP041',
     name: 'Nutritious Raagi Laddoo',
@@ -508,7 +508,7 @@ export const products: Product[] = [
       fiber: '4g',
       ingredients: ['Ragi (Finger Millet)', 'Jaggery', 'Almonds', 'Ghee', 'Cardamom'],
     },
-  },
+  }
   {
     id: 'LP042',
     name: 'Special Doodh Ghee Laddoo',
@@ -529,7 +529,7 @@ export const products: Product[] = [
       fiber: '1g',
       ingredients: ['Milk Powder', 'Desi Ghee', 'Jaggery', 'Dry Fruits', 'Cardamom'],
     },
-  },
+  }
   {
     id: 'LP043',
     name: 'Almond Laddoo',
@@ -549,7 +549,7 @@ export const products: Product[] = [
       fiber: '3g',
       ingredients: ['Almonds', 'Saffron', 'Cardamom', 'Ghee', 'Honey'],
     },
-  },
+  }
   {
     id: 'LP044',
     name: 'Seeds Laddoo',
@@ -569,7 +569,7 @@ export const products: Product[] = [
       fiber: '5g',
       ingredients: ['Sunflower Seeds', 'Sesame Seeds', 'Pumpkin Seeds', 'Jaggery', 'Ghee'],
     },
-  },
+  }
   {
     id: 'LP045',
     name: 'Anjeer Dryfruit Laddoo',
