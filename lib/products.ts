@@ -18,7 +18,7 @@ export type Product = {
   description: string
   price: number
   image: string
-  category: 'Classic' | 'Sugar-Free' | 'Health Drinks' | 'Muffins'
+  category:  'Sugar-Free' | 'Health Drinks' | 'Muffins'
   tags?: ('Bestseller' | 'Sugar-Free')[]
   variants?: ProductVariant[]
   nutrition?: Nutrition
