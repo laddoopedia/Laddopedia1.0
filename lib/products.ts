@@ -36,57 +36,6 @@ export const products: Product[] = [
     category: 'Brownie',
   },
   {
-    id: 'LP006',
-    name: 'Til Laddoo',
-    description: 'Sesame seed laddoo with jaggery, perfect for winters',
-    price: 350,
-    image: '/images/til-laddoo.jpg',
-    category: 'Classic',
-  },
-  {
-    id: 'LP007',
-    name: 'Churma Laddoo',
-    description: 'Rajasthani specialty made with wheat flour and desi ghee',
-    price: 480,
-    image: '/images/churma-laddoo.jpg',
-    category: 'Classic',
-    tags: ['Bestseller'],
-  },
-  {
-    id: 'LP009',
-    name: 'Aata Laddoo',
-    description: 'Whole wheat laddoo with jaggery and nuts',
-    price: 390,
-    image: '/images/aata-laddoo.jpg',
-    category: 'Classic',
-  },
-  // Dry Fruit Laddoos
-  {
-    id: 'LP011',
-    name: 'Dry Fruit Laddoo',
-    description: 'Premium mix of almonds, cashews, pistachios and dates',
-    price: 650,
-    image: '/images/dryfruit-laddoo.jpg',
-    category: 'Classic',
-    tags: ['Bestseller'],
-  },
-  {
-    id: 'LP012',
-    name: 'Badam Laddoo',
-    description: 'Pure almond laddoo with saffron and cardamom',
-    price: 700,
-    image: '/images/badam-laddoo.jpg',
-    category: 'Classic',
-  },
-  {
-    id: 'LP016',
-    name: 'Mixed Nut Laddoo',
-    description: 'Assorted nuts with dates and honey',
-    price: 620,
-    image: '/images/mixednut-laddoo.jpg',
-    category: 'Classic',
-  },
-  {
     id: 'LP040',
     name: 'Summer Special Laddu',
     description:
@@ -159,97 +108,19 @@ export const products: Product[] = [
   },
 
   // Sugar-Free Options
-  {
-    id: 'LP017',
-    name: 'Sugar-Free Besan Laddoo',
-    description: 'Besan laddoo sweetened with stevia, diabetic-friendly',
-    price: 520,
-    image: '/images/sf-besan-laddoo.jpg',
-    category: 'Sugar-Free',
-    tags: ['Sugar-Free'],
-    nutrition: {
-      calories: 160,
-      protein: '5g',
-      carbs: '10g',
-      fat: '9g',
-      fiber: '2g',
-      ingredients: ['Besan', 'Ghee', 'Stevia', 'Cardamom', 'Almonds'],
-    },
-  },
-  {
-    id: 'LP018',
-    name: 'Sugar-Free Dry Fruit Laddoo',
-    description: 'All-natural dry fruit laddoo with dates as sweetener',
-    price: 680,
-    image: '/images/sf-dryfruit-laddoo.jpg',
-    category: 'Sugar-Free',
-    tags: ['Sugar-Free', 'Bestseller'],
-  },
-  {
-    id: 'LP021',
-    name: 'Sugar-Free Ragi Laddoo',
-    description: 'Finger millet laddoo with jaggery and almonds',
-    price: 420,
-    image: '/images/sf-ragi-laddoo.jpg',
-    category: 'Sugar-Free',
-    tags: ['Sugar-Free'],
-  },
-  {
-    id: 'LP022',
-    name: 'Sugar-Free Protein Laddoo',
-    description: 'High-protein laddoo with nuts and seeds',
-    price: 550,
-    image: '/images/sf-protein-laddoo.jpg',
-    category: 'Sugar-Free',
-    tags: ['Sugar-Free'],
-  },
-  {
-    id: 'LP023',
-    name: 'Sugar-Free Sesame Laddoo',
-    description: 'Til laddoo with jaggery, perfect for health-conscious',
-    price: 400,
-    image: '/images/sf-sesame-laddoo.jpg',
-    category: 'Sugar-Free',
-    tags: ['Sugar-Free'],
-  },
-  {
-    id: 'LP024',
-    name: 'Sugar-Free Almond Laddoo',
-    description: 'Pure almond with date paste sweetener',
-    price: 720,
-    image: '/images/sf-almond-laddoo.jpg',
-    category: 'Sugar-Free',
-    tags: ['Sugar-Free'],
-  },
+
+
+
+
+
+
 
   // Health Drinks
-  {
-    id: 'LP033',
-    name: 'Chocolate Protein Drink',
-    description: 'Rich chocolate protein drink mix for energy and strength',
-    price: 450,
-    image: '/images/choco-protein.jpg',
-    category: 'Health Drinks',
-    tags: ['Bestseller'],
-  },
-  {
-    id: 'LP034',
-    name: 'Vanilla Protein Drink',
-    description: 'Smooth vanilla protein drink mix for daily nutrition',
-    price: 450,
-    image: '/images/vanilla-protein.jpg',
-    category: 'Health Drinks',
-  },
+
+
 
   // Muffins
-  {
-    id: 'LP035',
-    name: 'Vanilla Muffin',
-    description: 'Soft and fluffy vanilla muffin, freshly baked',
-    price: 60,
-    image: '/images/vanilla-muffin.jpg',
-    category: 'Muffins',
-  },
+
   {
     id: 'LP036',
     name: 'Chocolate Muffin',
@@ -259,31 +130,9 @@ export const products: Product[] = [
     category: 'Muffins',
     tags: ['Bestseller'],
   },
-  {
-    id: 'LP037',
-    name: 'Tutti Frutti Muffin',
-    description: 'Colorful tutti frutti muffin, kids favorite',
-    price: 65,
-    image: '/images/tuttifrutti-muffin.jpg',
-    category: 'Muffins',
-  },
-  {
-    id: 'LP038',
-    name: 'Choco Chips Muffin',
-    description: 'Vanilla muffin loaded with chocolate chips',
-    price: 75,
-    image: '/images/chocochips-muffin.jpg',
-    category: 'Muffins',
-  },
-  {
-    id: 'LP039',
-    name: 'Ragi Muffin',
-    description: 'Healthy ragi muffin with natural sweetness',
-    price: 80,
-    image: '/images/ragi-muffin.jpg',
-    category: 'Muffins',
-    tags: ['Sugar-Free'],
-  },
+
+
+
 ]
 
 export const categories =
