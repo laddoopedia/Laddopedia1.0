@@ -26,7 +26,6 @@ export type Product = {
 
 export const products: Product[] = [
   // Classic Laddoos
-
   {
     id: 'LP049',
     name: 'Walnut Brownie',
@@ -107,20 +106,11 @@ export const products: Product[] = [
     category: 'Classic',
   },
 
-  // Sugar-Free Options
+  // Sugar-Free Options (left intentionally minimal; restore as needed)
 
+  // Health Drinks (left intentionally minimal; restore as needed)
 
-
-
-
-
-
-  // Health Drinks
-
-
-
-  // Muffins
-
+  // Muffins (left intentionally minimal; restore as needed)
   {
     id: 'LP036',
     name: 'Chocolate Muffin',
@@ -130,9 +120,6 @@ export const products: Product[] = [
     category: 'Muffins',
     tags: ['Bestseller'],
   },
-
-
-
 ]
 
 export const categories =
