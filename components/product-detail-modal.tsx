@@ -15,7 +15,7 @@ interface ProductDetailModalProps {
 
 export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailModalProps) {
   const [selectedVariant, setSelectedVariant] = useState<string | null>(null)
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+919251197355'
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919251197355'
 
   if (!product) return null
 
@@ -40,18 +40,13 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
         <div className="space-y-4">
-          {/* Header with close button */}
           <div className="flex justify-between items-start">
             <h2 className="text-2xl font-bold text-foreground">{product.name}</h2>
-            <button
-              onClick={onClose}
-              className="text-muted-foreground hover:text-foreground"
-            >
+            <button onClick={onClose} className="text-muted-foreground hover:text-foreground">
               <X className="h-6 w-6" />
             </button>
           </div>
 
-          {/* Image */}
           <div className="relative w-full aspect-square overflow-hidden rounded-lg bg-muted">
             <Image
               src={product.image}
@@ -78,7 +73,6 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
             )}
           </div>
 
-          {/* Description */}
           <div>
             <h3 className="font-semibold text-foreground mb-2">Description</h3>
             <p className="text-muted-foreground">{product.description}</p>
@@ -89,7 +83,6 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
             )}
           </div>
 
-          {/* Variants/Sizes */}
           {hasVariants && product.variants && (
             <div>
               <h3 className="font-semibold text-foreground mb-3">Select Size</h3>
@@ -112,7 +105,6 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
             </div>
           )}
 
-          {/* Price */}
           {!hasVariants && (
             <div className="p-4 bg-muted rounded-lg">
               <div className="text-sm text-muted-foreground mb-1">Price</div>
@@ -120,52 +112,37 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
             </div>
           )}
 
-          {/* Nutritional Information */}
           {product.nutrition && (
             <div>
               <h3 className="font-semibold text-foreground mb-3">Nutritional Information</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 <div className="p-3 bg-muted rounded-lg">
                   <div className="text-xs text-muted-foreground">Calories</div>
-                  <div className="text-lg font-bold text-foreground">
-                    {product.nutrition.calories}
-                  </div>
+                  <div className="text-lg font-bold text-foreground">{product.nutrition.calories}</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
                   <div className="text-xs text-muted-foreground">Protein</div>
-                  <div className="text-lg font-bold text-foreground">
-                    {product.nutrition.protein}
-                  </div>
+                  <div className="text-lg font-bold text-foreground">{product.nutrition.protein}</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
                   <div className="text-xs text-muted-foreground">Carbs</div>
-                  <div className="text-lg font-bold text-foreground">
-                    {product.nutrition.carbs}
-                  </div>
+                  <div className="text-lg font-bold text-foreground">{product.nutrition.carbs}</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
                   <div className="text-xs text-muted-foreground">Fat</div>
-                  <div className="text-lg font-bold text-foreground">
-                    {product.nutrition.fat}
-                  </div>
+                  <div className="text-lg font-bold text-foreground">{product.nutrition.fat}</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
                   <div className="text-xs text-muted-foreground">Fiber</div>
-                  <div className="text-lg font-bold text-foreground">
-                    {product.nutrition.fiber}
-                  </div>
+                  <div className="text-lg font-bold text-foreground">{product.nutrition.fiber}</div>
                 </div>
               </div>
 
-              {/* Ingredients */}
               <div className="mt-4">
                 <h4 className="font-semibold text-foreground mb-2">Ingredients</h4>
                 <div className="flex flex-wrap gap-2">
                   {product.nutrition.ingredients.map((ingredient, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1 text-sm bg-muted rounded-full text-foreground"
-                    >
+                    <span key={idx} className="px-3 py-1 text-sm bg-muted rounded-full text-foreground">
                       {ingredient}
                     </span>
                   ))}
@@ -174,10 +151,8 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
             </div>
           )}
 
-          {/* Product ID */}
           <div className="text-xs text-muted-foreground">Product ID: {product.id}</div>
 
-          {/* Current Price Display and Order Button */}
           <div className="space-y-3 pt-4 border-t">
             {hasVariants && selectedVariant && (
               <div className="p-4 bg-primary/10 rounded-lg">
@@ -185,6 +160,7 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
                 <div className="text-3xl font-bold text-primary">₹{currentPrice}</div>
               </div>
             )}
+
             <Button
               onClick={handleOrderClick}
               disabled={hasVariants && !selectedVariant}
@@ -200,3 +176,4 @@ export function ProductDetailModal({ product, isOpen, onClose }: ProductDetailMo
     </Dialog>
   )
 }
+

@@ -18,14 +18,154 @@ export type Product = {
   description: string
   price: number
   image: string
-  category:  'Sugar-Free' | 'Health Drinks' | 'Muffins'
+  category: 'Classic' | 'Sugar-Free' | 'Health Drinks' | 'Muffins' | 'Brownie'
   tags?: ('Bestseller' | 'Sugar-Free')[]
   variants?: ProductVariant[]
   nutrition?: Nutrition
 }
 
 export const products: Product[] = [
-   
+  // Classic Laddoos
+  {
+    id: 'LP001',
+    name: 'Besan Laddoo',
+    description: 'Traditional besan laddoo made with pure desi ghee and cardamom',
+    price: 450,
+    image: '/images/besan-laddoo.jpg',
+    category: 'Classic',
+    tags: ['Bestseller'],
+  },
+  {
+    id: 'LP049',
+    name: 'Walnut Brownie',
+    description: 'Pack of 4 | Freshly Baked Brownies using Finest Ingredients',
+    price: 249,
+    image: '/images/Chocolate%20Brownie.jpeg',
+    category: 'Brownie',
+  },
+  {
+    id: 'LP006',
+    name: 'Til Laddoo',
+    description: 'Sesame seed laddoo with jaggery, perfect for winters',
+    price: 350,
+    image: '/images/til-laddoo.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP007',
+    name: 'Churma Laddoo',
+    description: 'Rajasthani specialty made with wheat flour and desi ghee',
+    price: 480,
+    image: '/images/churma-laddoo.jpg',
+    category: 'Classic',
+    tags: ['Bestseller'],
+  },
+  {
+    id: 'LP009',
+    name: 'Aata Laddoo',
+    description: 'Whole wheat laddoo with jaggery and nuts',
+    price: 390,
+    image: '/images/aata-laddoo.jpg',
+    category: 'Classic',
+  },
+  // Dry Fruit Laddoos
+  {
+    id: 'LP011',
+    name: 'Dry Fruit Laddoo',
+    description: 'Premium mix of almonds, cashews, pistachios and dates',
+    price: 650,
+    image: '/images/dryfruit-laddoo.jpg',
+    category: 'Classic',
+    tags: ['Bestseller'],
+  },
+  {
+    id: 'LP012',
+    name: 'Badam Laddoo',
+    description: 'Pure almond laddoo with saffron and cardamom',
+    price: 700,
+    image: '/images/badam-laddoo.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP016',
+    name: 'Mixed Nut Laddoo',
+    description: 'Assorted nuts with dates and honey',
+    price: 620,
+    image: '/images/mixednut-laddoo.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP040',
+    name: 'Summer Special Laddu',
+    description:
+      '300-325gm | Dryfruits, sattu, muskmelon & watermelon seeds, dhaga mishti, white pepper, desi ghee, elaichi & coconut powder',
+    price: 360,
+    image: '/images/summer-special-laddu.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP041',
+    name: 'Gond Aata Dryfruits Laddu',
+    description:
+      '300 - 325 gm | Ingredients: Gond, Desi Ghee, Jaggery, Wheat flour, Dryfruits, Elaichi powder',
+    price: 360,
+    image: '/images/gond-aata-dryfruits-laddu.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP042',
+    name: 'High Protein Seeds Laddu',
+    description:
+      '300 - 325 gm | Ingredients: Assorted Seeds, Anjeer, Dates, Desi Ghee, Almonds',
+    price: 360,
+    image: '/images/high-protein-seeds-laddu.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP043',
+    name: 'Assorted Laddu Box',
+    description: '300 - 325 gm',
+    price: 360,
+    image: '/images/assorted-laddu-box.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP044',
+    name: 'Almond Laddu',
+    description:
+      '300 - 325 gm | Ingredients: High quality Almonds Sweetened with Dates and Raisin, Desi Ghee, Elaichi powder',
+    price: 360,
+    image: '/images/almond-laddu.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP045',
+    name: 'Nutritious Raagi Laddu for Kids',
+    description:
+      '300 - 325 gm | Ingredients: Raagi flour, Dryfruits, Desi Ghee, Jaggery, White Sesame seeds',
+    price: 360,
+    image: '/images/nutritious-raagi-laddu-kids.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP046',
+    name: 'Special Doodh Laddu',
+    description:
+      '300 - 325 gm | Ingredients: Freshly Prepared Bundi in Desi Ghee, Blended with Milk, Dryfruits, Brown Sugar, Elaichi Powder, Muskmelon seeds',
+    price: 300,
+    image: '/images/special-doodh-laddu.jpg',
+    category: 'Classic',
+  },
+  {
+    id: 'LP047',
+    name: 'Anjeer Dryfruits Laddu',
+    description:
+      '300 - 325 gm | Ingredients: Finest Quality Anjeer, Desi Ghee, Dates, Assorted Dryfruits',
+    price: 699,
+    image: '/images/anjeer-laddoo.jpg',
+    category: 'Classic',
+  },
+
   // Sugar-Free Options
   {
     id: 'LP017',
@@ -41,10 +181,9 @@ export const products: Product[] = [
       carbs: '10g',
       fat: '9g',
       fiber: '2g',
-      ingredients: ['Besan', 'Ghee', 'Stevia', 'Cardamom', 'Almonds']
+      ingredients: ['Besan', 'Ghee', 'Stevia', 'Cardamom', 'Almonds'],
     },
-  }
-  
+  },
   {
     id: 'LP018',
     name: 'Sugar-Free Dry Fruit Laddoo',
@@ -53,15 +192,7 @@ export const products: Product[] = [
     image: '/images/sf-dryfruit-laddoo.jpg',
     category: 'Sugar-Free',
     tags: ['Sugar-Free', 'Bestseller'],
-    nutrition: {
-      calories: 200,
-      protein: '8g',
-      carbs: '18g',
-      fat: '12g',
-      fiber: '4g',
-      ingredients: ['Dry Fruits', 'Dates', 'Almonds', 'Ghee', 'Honey'],
-    },
-  }
+  },
   {
     id: 'LP021',
     name: 'Sugar-Free Ragi Laddoo',
@@ -70,15 +201,7 @@ export const products: Product[] = [
     image: '/images/sf-ragi-laddoo.jpg',
     category: 'Sugar-Free',
     tags: ['Sugar-Free'],
-    nutrition: {
-      calories: 165,
-      protein: '6g',
-      carbs: '14g',
-      fat: '8g',
-      fiber: '4g',
-      ingredients: ['Ragi (Finger Millet)', 'Almonds', 'Jaggery', 'Ghee'],
-    },
-  }
+  },
   {
     id: 'LP022',
     name: 'Sugar-Free Protein Laddoo',
@@ -87,15 +210,7 @@ export const products: Product[] = [
     image: '/images/sf-protein-laddoo.jpg',
     category: 'Sugar-Free',
     tags: ['Sugar-Free'],
-    nutrition: {
-      calories: 195,
-      protein: '12g',
-      carbs: '12g',
-      fat: '11g',
-      fiber: '4g',
-      ingredients: [ 'Mixed Nuts', 'Seeds', 'Ghee', 'Honey'],
-    },
-  }
+  },
   {
     id: 'LP023',
     name: 'Sugar-Free Sesame Laddoo',
@@ -104,15 +219,7 @@ export const products: Product[] = [
     image: '/images/sf-sesame-laddoo.jpg',
     category: 'Sugar-Free',
     tags: ['Sugar-Free'],
-    nutrition: {
-      calories: 185,
-      protein: '6g',
-      carbs: '12g',
-      fat: '12g',
-      fiber: '4g',
-      ingredients: ['Sesame Seeds', 'Jaggery', 'Ghee', 'Ginger'],
-    },
-  }
+  },
   {
     id: 'LP024',
     name: 'Sugar-Free Almond Laddoo',
@@ -121,15 +228,8 @@ export const products: Product[] = [
     image: '/images/sf-almond-laddoo.jpg',
     category: 'Sugar-Free',
     tags: ['Sugar-Free'],
-    nutrition: {
-      calories: 215,
-      protein: '9g',
-      carbs: '14g',
-      fat: '15g',
-      fiber: '4g',
-      ingredients: ['Almonds', 'Dates', 'Ghee', 'Cardamom'],
-    },
-  }
+  },
+
   // Health Drinks
   {
     id: 'LP033',
@@ -139,15 +239,7 @@ export const products: Product[] = [
     image: '/images/choco-protein.jpg',
     category: 'Health Drinks',
     tags: ['Bestseller'],
-    nutrition: {
-      calories: 120,
-      protein: '15g',
-      carbs: '12g',
-      fat: '2g',
-      fiber: '2g',
-      ingredients: ['Cocoa', 'Milk Powder', 'Sugar', 'Minerals'],
-    },
-  }
+  },
   {
     id: 'LP034',
     name: 'Vanilla Protein Drink',
@@ -155,55 +247,8 @@ export const products: Product[] = [
     price: 450,
     image: '/images/vanilla-protein.jpg',
     category: 'Health Drinks',
-    nutrition: {
-      calories: 120,
-      protein: '15g',
-      carbs: '12g',
-      fat: '2g',
-      fiber: '2g',
-      ingredients: ['Vanilla Extract', 'Milk Powder', 'Sugar'],
-    },
-  }
-  {
-    id: 'LP046',
-    name: 'Protein Powder for Kids',
-    description: 'Nutritious protein powder formulated for children, with a tasty flavor',
-    price: 570,
-    image: '/images/protein-kids.jpg',
-    category: 'Health Drinks',
-    variants: [
-      { size: '480 gm', price: 570 },
-      { size: '900 gm', price: 1000 },
-    ],
-    nutrition: {
-      calories: 110,
-      protein: '12g',
-      carbs: '10g',
-      fat: '3g',
-      fiber: '1g',
-      ingredients: ['Milk Solids', 'Natural Flavors', 'Vitamins', 'Minerals'],
-    },
-  }
-  {
-    id: 'LP047',
-    name: 'Protein Powder for Women',
-    description: 'Protein powder blend designed for women with balanced nutrition',
-    price: 649,
-    image: '/images/protein-women.jpg',
-    category: 'Health Drinks',
-    variants: [
-      { size: '480 gm', price: 649 },
-      { size: '1 kg', price: 1099 },
-    ],
-    nutrition: {
-      calories: 115,
-      protein: '14g',
-      carbs: '11g',
-      fat: '3g',
-      fiber: '1g',
-      ingredients: ['Soy Protein', 'Vitamins', 'Calcium', 'Natural Flavors'],
-    },
-  }
+  },
+
   // Muffins
   {
     id: 'LP035',
@@ -212,32 +257,16 @@ export const products: Product[] = [
     price: 60,
     image: '/images/vanilla-muffin.jpg',
     category: 'Muffins',
-    nutrition: {
-      calories: 220,
-      protein: '3g',
-      carbs: '28g',
-      fat: '10g',
-      fiber: '1g',
-      ingredients: ['Flour', 'Milk', 'Vanilla Extract', 'Butter', 'Sugar'],
-    },
-  }
+  },
   {
     id: 'LP036',
     name: 'Chocolate Muffin',
-    description: 'Rich chocolate muffin with a moist center',
-    price: 70,
-    image: '/images/chocolate-muffin.jpg',
+    description: 'FREE DELIVERY ON ORDERS ABOVE @399 Oven Fresh Muffins Pack of 6',
+    price: 199,
+    image: '/images/Chocolate%20Muffins.jpeg',
     category: 'Muffins',
     tags: ['Bestseller'],
-    nutrition: {
-      calories: 240,
-      protein: '3g',
-      carbs: '30g',
-      fat: '12g',
-      fiber: '2g',
-      ingredients: ['Flour', 'Cocoa Powder', 'Milk', 'Butter', 'Sugar'],
-    },
-  }
+  },
   {
     id: 'LP037',
     name: 'Tutti Frutti Muffin',
@@ -245,15 +274,7 @@ export const products: Product[] = [
     price: 65,
     image: '/images/tuttifrutti-muffin.jpg',
     category: 'Muffins',
-    nutrition: {
-      calories: 230,
-      protein: '3g',
-      carbs: '29g',
-      fat: '11g',
-      fiber: '1g',
-      ingredients: ['Flour', 'Dry Fruits', 'Milk', 'Butter', 'Sugar'],
-    },
-  }
+  },
   {
     id: 'LP038',
     name: 'Choco Chips Muffin',
@@ -261,15 +282,7 @@ export const products: Product[] = [
     price: 75,
     image: '/images/chocochips-muffin.jpg',
     category: 'Muffins',
-    nutrition: {
-      calories: 250,
-      protein: '3g',
-      carbs: '31g',
-      fat: '13g',
-      fiber: '1g',
-      ingredients: ['Flour', 'Chocolate Chips', 'Milk', 'Butter', 'Sugar'],
-    },
-  }
+  },
   {
     id: 'LP039',
     name: 'Ragi Muffin',
@@ -278,189 +291,11 @@ export const products: Product[] = [
     image: '/images/ragi-muffin.jpg',
     category: 'Muffins',
     tags: ['Sugar-Free'],
-    nutrition: {
-      calories: 210,
-      protein: '5g',
-      carbs: '26g',
-      fat: '9g',
-      fiber: '4g',
-      ingredients: ['Ragi Flour', 'Milk', 'Honey', 'Ghee'],
-    },
-  }
-  {
-    id: 'LP048',
-    name: 'Vanilla Muffins Pack of 6',
-    description: 'Pack of 6 vanilla muffins. Delivery charges extra.',
-    price: 99,
-    image: '/images/vanilla-muffins-pack.jpg',
-    category: 'Muffins',
-    nutrition: {
-      calories: 1260,
-      protein: '18g',
-      carbs: '168g',
-      fat: '60g',
-      fiber: '6g',
-      ingredients: ['Flour', 'Milk', 'Vanilla Extract', 'Butter', 'Sugar'],
-    },
-  }
-  {
-    id: 'LP049',
-    name: 'Chocolate Muffins Pack of 6',
-    description: 'Pack of 6 chocolate muffins. Delivery charges extra.',
-    price: 129,
-    image: '/images/chocolate-muffins-pack.jpg',
-    category: 'Muffins',
-    nutrition: {
-      calories: 1440,
-      protein: '18g',
-      carbs: '180g',
-      fat: '72g',
-      fiber: '6g',
-      ingredients: ['Flour', 'Cocoa Powder', 'Milk', 'Butter', 'Sugar'],
-    },
-  }
-  {
-    id: 'LP050',
-    name: 'Choco Chips Muffins Pack of 6',
-    description: 'Pack of 6 chocochip muffins. Delivery charges extra.',
-    price: 139,
-    image: '/images/chocochips-muffins-pack.jpg',
-    category: 'Muffins',
-    nutrition: {
-      calories: 1500,
-      protein: '18g',
-      carbs: '185g',
-      fat: '75g',
-      fiber: '6g',
-      ingredients: ['Flour', 'Chocolate Chips', 'Butter', 'Sugar'],
-    },
-  }
-  // New Specialty Laddoos
-  {
-    id: 'LP040',
-    name: 'Aata Gond Laddoo',
-    description: 'Whole wheat and gond laddoo with nutritional goodness',
-    price: 299,
-    image: '/images/aata-gond-laddoo.jpg',
-    category: 'Classic',
-    variants: [
-      { size: '250 gm', price: 299 },
-      { size: '500 gm', price: 499 },
-      { size: '1 kg', price: 899 },
-    ],
-    nutrition: {
-      calories: 175,
-      protein: '6g',
-      carbs: '20g',
-      fat: '8g',
-      fiber: '3g',
-      ingredients: ['Whole Wheat', 'Gond (Gum Arabic)', 'Jaggery', 'Ghee', 'Dry Fruits'],
-    },
-  }
-  {
-    id: 'LP041',
-    name: 'Nutritious Raagi Laddoo',
-    description: 'Finger millet laddoo packed with nutritional benefits',
-    price: 299,
-    image: '/images/raagi-laddoo.jpg',
-    category: 'Classic',
-    variants: [
-      { size: '250 gm', price: 299 },
-      { size: '500 gm', price: 549 },
-      { size: '1 kg', price: 949 },
-    ],
-    nutrition: {
-      calories: 168,
-      protein: '7g',
-      carbs: '18g',
-      fat: '8g',
-      fiber: '4g',
-      ingredients: ['Ragi (Finger Millet)', 'Jaggery', 'Almonds', 'Ghee', 'Cardamom'],
-    },
-  }
-  {
-    id: 'LP042',
-    name: 'Special Doodh Ghee Laddoo',
-    description: 'Creamy milk and ghee laddoo with traditional recipe',
-    price: 249,
-    image: '/images/doodh-ghee-laddoo.jpg',
-    category: 'Classic',
-    variants: [
-      { size: '250 gm', price: 249 },
-      { size: '500 gm', price: 499 },
-      { size: '1 kg', price: 899 },
-    ],
-    nutrition: {
-      calories: 182,
-      protein: '4g',
-      carbs: '21g',
-      fat: '9g',
-      fiber: '1g',
-      ingredients: ['Milk Powder', 'Desi Ghee', 'Jaggery', 'Dry Fruits', 'Cardamom'],
-    },
-  }
-  {
-    id: 'LP043',
-    name: 'Almond Laddoo',
-    description: 'Pure almond laddoo with saffron and cardamom',
-    price: 399,
-    image: '/images/almond-laddoo.jpg',
-    category: 'Classic',
-    variants: [
-      { size: '250 gm', price: 399 },
-      { size: '500 gm', price: 699 },
-    ],
-    nutrition: {
-      calories: 215,
-      protein: '8g',
-      carbs: '14g',
-      fat: '15g',
-      fiber: '3g',
-      ingredients: ['Almonds', 'Saffron', 'Cardamom', 'Ghee', 'Honey'],
-    },
-  }
-  {
-    id: 'LP044',
-    name: 'Seeds Laddoo',
-    description: 'Mixed seeds laddoo with natural goodness',
-    price: 299,
-    image: '/images/seeds-laddoo.jpg',
-    category: 'Classic',
-    variants: [
-      { size: '250 gm', price: 299 },
-      { size: '500 gm', price: 499 },
-    ],
-    nutrition: {
-      calories: 195,
-      protein: '8g',
-      carbs: '15g',
-      fat: '13g',
-      fiber: '5g',
-      ingredients: ['Sunflower Seeds', 'Sesame Seeds', 'Pumpkin Seeds', 'Jaggery', 'Ghee'],
-    },
-  }
-  {
-    id: 'LP045',
-    name: 'Anjeer Dryfruit Laddoo',
-    description: 'Premium fig and mixed dry fruits laddoo',
-    price: 699,
-    image: '/images/anjeer-dryfruit-laddoo.jpg',
-    category: 'Classic',
-    tags: ['Bestseller'],
-    variants: [
-      { size: '250 gm', price: 699 },
-      { size: '500 gm', price: 1199 },
-    ],
-    nutrition: {
-      calories: 225,
-      protein: '7g',
-      carbs: '22g',
-      fat: '12g',
-      fiber: '4g',
-      ingredients: ['Figs (Anjeer)', 'Dates', 'Almonds', 'Cashews', 'Ghee', 'Honey'],
-    },
   },
 ]
 
-export const categories = ['All', 'Sugar-Free', 'Health Drinks', 'Muffins'] as const
+export const categories =
+  ['All', 'Classic', 'Sugar-Free', 'Health Drinks', 'Muffins', 'Brownie'] as const
+
 export type Category = (typeof categories)[number]
+

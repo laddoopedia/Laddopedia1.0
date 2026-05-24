@@ -5,7 +5,7 @@ import { MessageCircle, ArrowDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function Hero() {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+919251197355'
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919251197355'
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(
@@ -44,12 +44,7 @@ export function Hero() {
                 <MessageCircle className="h-5 w-5" />
                 Order on WhatsApp
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                onClick={scrollToProducts}
-                className="gap-2"
-              >
+              <Button size="lg" variant="outline" onClick={scrollToProducts} className="gap-2">
                 Explore Products
                 <ArrowDown className="h-4 w-4" />
               </Button>
@@ -73,3 +68,4 @@ export function Hero() {
     </section>
   )
 }
+

@@ -14,7 +14,7 @@ const navLinks = [
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+919251197355'
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919251197355'
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(
@@ -95,3 +95,4 @@ export function Navbar() {
     </header>
   )
 }
+
