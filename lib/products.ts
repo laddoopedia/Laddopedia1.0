@@ -26,15 +26,7 @@ export type Product = {
 
 export const products: Product[] = [
   // Classic Laddoos
-  {
-    id: 'LP001',
-    name: 'Besan Laddoo',
-    description: 'Traditional besan laddoo made with pure desi ghee and cardamom',
-    price: 450,
-    image: '/images/besan-laddoo.jpg',
-    category: 'Classic',
-    tags: ['Bestseller'],
-  },
+
   {
     id: 'LP049',
     name: 'Walnut Brownie',
