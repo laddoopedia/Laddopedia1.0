@@ -18,7 +18,7 @@ export type Product = {
   description: string
   price: number
   image: string
-  category: 'Classic' | 'Health Drinks' | 'Muffins' | 'Brownie'
+  category: 'Classic' | 'Health Drinks' | 'Muffins' | 'Brownie' | 'Cookies'
   tags?: ('Bestseller' | 'Sugar-Free')[]
   variants?: ProductVariant[]
   nutrition?: Nutrition
@@ -155,10 +155,36 @@ export const products: Product[] = [
     category: 'Muffins',
     tags: ['Bestseller'],
   },
+
+  // Cookies
+  {
+    id: 'CK001',
+    name: 'Jeera Cookies',
+    description: 'Quantity: 300 gm | Authentic Jeera Cookies Made Using Wheat Flour',
+    price: 199,
+    image: '/images/JeeraCookies.jpeg',
+    category: 'Cookies',
+  },
+  {
+    id: 'CK002',
+    name: 'Premium Butter Cookies',
+    description: 'Quantity: 300 gm | Premium Butter Cookies Made Using Authentic Butter and Refined Wheat flour',
+    price: 199,
+    image: '/images/PremiumButterCookies.jpeg',
+    category: 'Cookies',
+  },
+  {
+    id: 'CK003',
+    name: 'Real Mango Cookies',
+    description: 'Quantity: 300 gm | Seasonal Mango Cookies Made Using Real Mango Pulp',
+    price: 199,
+    image: '/images/RealMangoCookies.jpeg',
+    category: 'Cookies',
+  },
 ]
 
 export const categories =
-  ['All', 'Classic', 'Health Drinks', 'Muffins', 'Brownie'] as const
+  ['All', 'Classic', 'Health Drinks', 'Muffins', 'Brownie', 'Cookies'] as const
 
 export type Category = (typeof categories)[number]
 
