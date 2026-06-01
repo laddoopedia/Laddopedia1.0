@@ -55,7 +55,7 @@ export function Hero() {
           <div className="relative mx-auto aspect-square w-full max-w-md lg:max-w-none">
             <div className="absolute inset-0 rounded-full bg-primary/10" />
             <Image
-              src="/images/hero-laddoo.jpg"
+              src="/images/heroladdoo.jpg"
               alt="Assortment of fresh handmade laddoos"
               fill
               className="rounded-3xl object-cover"
