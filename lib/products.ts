@@ -18,7 +18,7 @@ export type Product = {
   description: string
   price: number
   image: string
-  category: 'Classic' | 'Sugar-Free' | 'Health Drinks' | 'Muffins' | 'Brownie'
+  category: 'Classic' | 'Health Drinks' | 'Muffins' | 'Brownie'
   tags?: ('Bestseller' | 'Sugar-Free')[]
   variants?: ProductVariant[]
   nutrition?: Nutrition
@@ -158,7 +158,7 @@ export const products: Product[] = [
 ]
 
 export const categories =
-  ['All', 'Classic', 'Sugar-Free', 'Health Drinks', 'Muffins', 'Brownie'] as const
+  ['All', 'Classic', 'Health Drinks', 'Muffins', 'Brownie'] as const
 
 export type Category = (typeof categories)[number]
 
